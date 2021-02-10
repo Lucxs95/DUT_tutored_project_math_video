@@ -1,9 +1,12 @@
 * {
 	-webkit-transition-property: all;
-	-webkit-transition-duration: .2s;
-  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
 	-moz-transition-property: all;
+  transition-property: all;
+	-webkit-transition-duration: .2s;
+  -moz-transition-duration: all;
+  transition-duration: 2s;
   -moz-transition-timing-function: cubic-bezier(100,50,21,6);
+  transition-timing-function: cubic-bezier(100,50,21,6);
 }
 
 body{
@@ -11,9 +14,7 @@ body{
   text-align:center;
   font-family: 'Oswald', sans-serif;
 }
-footer{
 
-}
 
 h1{
   color:#c0c0c0;
@@ -49,7 +50,7 @@ h5{
   border:none;
   background:rgba(0, 0, 0, 0.4);
   background:#fff;
-  padding:20px 20px; #000;
+  padding:20px 20px;
   color:#1b1b1b;
 }
 
