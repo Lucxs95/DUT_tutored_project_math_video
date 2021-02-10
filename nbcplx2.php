@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title> Les Maths en vidéo </title>
+		<link rel="stylesheet" media="screen and (max-width:1920px) and (min-width:480px)" href=" style.css" />
+		<link rel="stylesheet" media="screen and (max-width:480px)" href=" style.css" />
+		<link rel="icon" type="image/png" href="images/arbre.png">
+		
+	</head>
+	<header>
+		<link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+		<h1>Les MATHS en vidéo</h1>
+		
+		<a href="index" class="btn">Home</a>
+		<a href="page2.php" class="btn">Cours</a>
+		
+
+	</header>
+	<main>
+	
+	</br>
+	<h2>Formes algébriques des nombres complexes (2/4) </h2> 
+			<video controls src="./video/cmplx2" id="center" height=300 width=500></video></div>
+	</main>
+	
+	<body>
+<div id="quiz"></div>
+<button id="submit"> Vérifier</button>
+<div id="results"></div>
+<script src="formu2.js"></script>
+
+	</body>
+	
+	<footer>
+			</br>
+       			<a href="nbcplx3.php" class="btn">page suivante</a>
+			</br>
+			</br>
+       			<a href="page2.php" class="btn">page d'acceuil</a>
+	</footer>
