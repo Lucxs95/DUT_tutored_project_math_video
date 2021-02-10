@@ -1,24 +1,3 @@
-var myQuestions = [
-	{
-		question: "Dans quel ensemble sont définis les nombres complexes ?",
-		answers: {
-			a: 'Z',
-			b: 'R',
-			c: 'C'
-		},
-		correctAnswer: 'c'
-	},
-	{
-		question: "j&sup2; = ?",
-		answers: {
-			a: '-1',
-			b: 'j',
-			c: '1'
-		},
-		correctAnswer: 'a'
-	}
-];
-
 var quizContainer = document.getElementById('quiz');
 var resultsContainer = document.getElementById('results');
 var submitButton = document.getElementById('submit');
@@ -104,5 +83,4 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
 	submitButton.onclick = function(){
 		showResults(questions, quizContainer, resultsContainer);
 	}
-
 }
