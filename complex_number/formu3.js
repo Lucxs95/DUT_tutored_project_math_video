@@ -12,8 +12,8 @@ var myQuestions = [
 		question: "Quel est la formule de l'argument ?",
 		answers: {
 			a: 'Pas besoin de la connaitre',
-			b: 'Cos&#952;=x Sin&#952;=y',
-			c: 'Cos&#952;=x/|z| Sin&#952;=y/|z|'
+			b: 'Cos(&#952;)=x Sin(&#952;)=y',
+			c: 'Cos(&#952;)=x/|z| Sin(&#952;)=y/|z|'
 		},
 		correctAnswer: 'c'
 	}

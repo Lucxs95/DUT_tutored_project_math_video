@@ -1,10 +1,10 @@
 var myQuestions = [
 	{
-		question: "Dans quel ensemble sont définis les nombres complexes ?",
+		question: "Pour la formule de Moivre (cos(&#952)+jsin(&#952))<sup>n</sup> on a : ",
 		answers: {
-			a: 'Z',
-			b: 'R',
-			c: 'C'
+			a: ' n * (cos(&#952)+jsin(&#952)) ',
+			b: '(n*cos(&#952)+n*jsin(&#952))',
+			c: 'cos(n*&#952)+jsin(n*&#952)'
 		},
 		correctAnswer: 'c'
 	},
