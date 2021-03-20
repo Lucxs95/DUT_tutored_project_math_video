@@ -1,6 +1,6 @@
 var myQuestions = [
 	{
-		question: "Si on a -a-jb ou se trouve le point par rapport a l'axe ? ",
+		question: "Si on a -a-jb ou se trouve le point par rapport a l'axe ? ( placer vous a 1:00 pour avoir l'axe)",
 		answers: {
 			a: 'En haut à gauche ',
 			b: 'En bas à gauche',
