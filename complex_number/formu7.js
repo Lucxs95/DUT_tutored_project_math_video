@@ -1,6 +1,6 @@
 var myQuestions = [
 	{
-		question: "Pour la formule de Moivre (cos(&#952)+jsin(&#952))<sup>n</sup> on a : ",
+		question: "Pour la formule de Moivre, (cos(&#952)+jsin(&#952))<sup>n</sup>, on a : ",
 		answers: {
 			a: ' n * (cos(&#952)+jsin(&#952)) ',
 			b: '(n*cos(&#952)+n*jsin(&#952))',
@@ -9,11 +9,10 @@ var myQuestions = [
 		correctAnswer: 'c'
 	},
 	{
-		question: "j&sup2; = ?",
+		question: "Pour la formule d'Euler :'",
 		answers: {
-			a: '-1',
-			b: 'j',
-			c: '1'
+			a: 'J\'ai compris',
+			b: 'J\'ai toujours rien compris',
 		},
 		correctAnswer: 'a'
 	}
