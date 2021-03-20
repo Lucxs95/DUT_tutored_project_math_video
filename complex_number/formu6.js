@@ -1,20 +1,10 @@
 var myQuestions = [
 	{
-		question: "Dans quel ensemble sont définis les nombres complexes ?",
+		question: "Vidéo regroupant les propriétés du conjugué d'un nombre complexes",
 		answers: {
-			a: 'Z',
-			b: 'R',
-			c: 'C'
-		},
-		correctAnswer: 'c'
-	},
-	{
-		question: "j&sup2; = ?",
-		answers: {
-			a: '-1',
-			b: 'j',
-			c: '1'
+			a: 'J\'ai compris ces propriétés',
 		},
 		correctAnswer: 'a'
-	}
+	},
+
 ];
