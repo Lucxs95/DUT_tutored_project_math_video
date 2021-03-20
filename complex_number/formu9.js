@@ -1,20 +1,12 @@
 var myQuestions = [
 	{
-		question: "Dans quel ensemble sont définis les nombres complexes ?",
+		question: "Pour trois points, A, B, C, distincts deux à deux quelle est la formule correct pour trouver l'angle ?",
 		answers: {
-			a: 'Z',
-			b: 'R',
-			c: 'C'
+			a: '|Zb-Zc/Za-Zc|',
+			b: 'arg(Zb-Zc/Za-Zc)',
+			c: 'La formule n\'a pas été donné'
 		},
-		correctAnswer: 'c'
+		correctAnswer: 'b'
 	},
-	{
-		question: "j&sup2; = ?",
-		answers: {
-			a: '-1',
-			b: 'j',
-			c: '1'
-		},
-		correctAnswer: 'a'
-	}
+	
 ];
