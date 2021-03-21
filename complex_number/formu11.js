@@ -1,19 +1,19 @@
 var myQuestions = [
 	{
-		question: "Dans quel ensemble sont définis les nombres complexes ?",
+		question: "A vous de jouer calculer le determinant de 4z&sup2;+2z+10=0",
 		answers: {
-			a: 'Z',
-			b: 'R',
-			c: 'C'
+			a: '156',
+			b: '0',
+			c: '-156'
 		},
 		correctAnswer: 'c'
 	},
 	{
-		question: "j&sup2; = ?",
+		question: "Cette équation admet donc ... solutions dans C ? ",
 		answers: {
-			a: '-1',
-			b: 'j',
-			c: '1'
+			a: '2',
+			b: '1',
+			c: '0'
 		},
 		correctAnswer: 'a'
 	}
