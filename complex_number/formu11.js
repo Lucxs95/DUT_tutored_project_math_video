@@ -1,6 +1,6 @@
 var myQuestions = [
 	{
-		question: "A vous de jouer calculer le determinant de 4z&sup2;+2z+10=0",
+		question: "Calculer le determinant de 4z&sup2;+2z+10=0",
 		answers: {
 			a: '156',
 			b: '0',
