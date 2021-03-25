@@ -1,20 +1,20 @@
 var myQuestions = [
 	{
-		question: "Valeurs de base a connaitre : ln(1)=",
+		question: "Dérivées de exponentielle(x) et logarithme(x) : ",
 		answers: {
-			a: '1',
-			b: '0',
-			c: '-1'
-		},
-		correctAnswer: 'b'
-	},
-	{
-		question: "As-tu bien compris les formules ? Pour ln(4&sup2;) on aura :",
-		answers: {
-			a: 'ln(4)',
-			b: 'ln(4)&sup2;',
-			c: '2*ln(4)'
+			a: 'e<sup>x</sup> et 1',
+			b: 'e<sup>1</sup> et 1/x',
+			c: 'e<sup>x</sup> et 1/x'
 		},
 		correctAnswer: 'c'
+	},
+	{
+		question: "ln et exp sont ils croissant ou décroissant ?",
+		answers: {
+			a: 'décroissant',
+			b: 'croissant',
+			c: 'l\'un est décroissant et l\'autre et croissant'
+		},
+		correctAnswer: 'b'
 	}
 ];
