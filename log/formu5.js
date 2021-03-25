@@ -1,20 +1,20 @@
 var myQuestions = [
 	{
-		question: "Valeurs de base a connaitre : ln(1)=",
+		question: "Quel est le résultat de 1854<sup>0</sup>",
 		answers: {
-			a: '1',
-			b: '0',
-			c: '-1'
+			a: '0',
+			b: '1',
+			c: '1854'
 		},
 		correctAnswer: 'b'
 	},
 	{
-		question: "As-tu bien compris les formules ? Pour ln(4&sup2;) on aura :",
+		question: "Quel est le résultat de log7(7<sup>10</sup>)",
 		answers: {
-			a: 'ln(4)',
-			b: 'ln(4)&sup2;',
-			c: '2*ln(4)'
+			a: '10',
+			b: '7',
+			c: '1'
 		},
-		correctAnswer: 'c'
+		correctAnswer: 'a'
 	}
 ];
