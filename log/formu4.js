@@ -1,19 +1,19 @@
 var myQuestions = [
 	{
-		question: "Valeurs de base a connaitre : ln(1)=",
+		question: "Trouver la réponse pour ce logarithme : log26(15)=",
 		answers: {
-			a: '1',
-			b: '0',
-			c: '-1'
+			a: 'ln(26)/ln(15)',
+			b: 'ln(15)/ln(26)',
+			c: 'ln(x)/ln(a)'
 		},
 		correctAnswer: 'b'
 	},
 	{
-		question: "As-tu bien compris les formules ? Pour ln(4&sup2;) on aura :",
+		question: "loga(x) est défini sur :",
 		answers: {
-			a: 'ln(4)',
-			b: 'ln(4)&sup2;',
-			c: '2*ln(4)'
+			a: 'R',
+			b: ']-&#8734;;0[',
+			c: ']0;+&#8734;['
 		},
 		correctAnswer: 'c'
 	}
