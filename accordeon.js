@@ -1,12 +1,16 @@
-/*jQuery time*/
-$(document).ready(function(){
-	$(".accordeon li h3").click(function(){
-		//slide up all the link lists
-		$(".accordeon ul").slideUp();
-		//slide down the link list below the h3 clicked - only if its closed
-		if(!$(this).next().is(":visible"))
-		{
-			$(this).next().slideDown();
-		}
-	})
-})
+var allTitle = document.querySelectorAll(".accordeon li");
+// we get big title
+
+// we set up an onclick function for each big title
+for (let oneTitle of allTitle) {
+    oneTitle.onclick = function () {
+        if (this.className == "open") {
+            this.className = "";
+        } else {
+            for (let oneOfTitle of allTitle) {
+                oneOfTitle.className = "";
+            }
+            this.className = "open";
+        }
+    };
+}

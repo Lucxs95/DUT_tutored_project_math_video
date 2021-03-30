@@ -1,194 +1,171 @@
-* {
-	-webkit-transition-property: all;
-	-moz-transition-property: all;
-  transition-property: all;
-	-webkit-transition-duration: .2s;
-  -moz-transition-duration: all;
-  transition-duration: 2s;
-  -moz-transition-timing-function: cubic-bezier(100,50,21,6);
-  transition-timing-function: cubic-bezier(100,50,21,6);
+body {
+    background: #3c447b;
+    text-align: center;
+    font-family: sans-serif;
 }
 
-body{
-  background:#3C447B;
-  text-align:center;
-  font-family: 'Oswald', sans-serif;
+h1 {
+    color: #c0c0c0;
+    font-weight: 100;
+}
+h2 {
+    color: #c0c0c0;
+    font-weight: 85;
+}
+h3 {
+    color: #c0c0c0;
+    font-weight: 100;
+}
+h4 {
+    color: #c0c0c0;
+    font-weight: 100;
+}
+h5 {
+    color: #c0c0c0;
+    font-weight: 100;
+}
+.btn {
+    color: #999;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    font-size: 12px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
-h1{
-  color:#c0c0c0;
-  font-weight:100;
-}
-h2{
-  color:#c0c0c0;
-  font-weight:85;
-}
-h3{
-  color:#c0c0c0;
-  font-weight:100;
-}
-h4{
-  color:#c0c0c0;
-  font-weight:100;
-}
-h5{
-  color:#c0c0c0;
-  font-weight:100;
-}
-.btn{
-  color:#999;
-  background:rgba(0, 0, 0, 0.5);
-  padding:10px 20px;
-  font-size:12px;
-  text-decoration:none;
-  letter-spacing:2px;
-  text-transform:uppercase;
+.btn:hover {
+    border: none;
+    background: rgba(0, 0, 0, 0.4);
+    background: #fff;
+    padding: 20px 20px;
+    color: #1b1b1b;
+    transition: all 1s;
 }
 
-.btn:hover{
-  border:none;
-  background:rgba(0, 0, 0, 0.4);
-  background:#fff;
-  padding:20px 20px;
-  color:#1b1b1b;
-}
-
-.footer{
-  font-size:8px;
-  color:#fff;
-  clear:both;
-  display:block;
-  letter-spacing:5px;
-  border:1px solid #fff;
-  padding:5px;
-  text-decoration:none;
-  width:210px;
-  margin:auto;
-  margin-top:400px;
+.footer {
+    font-size: 8px;
+    color: #fff;
+    clear: both;
+    display: block;
+    letter-spacing: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+    text-decoration: none;
+    width: 210px;
+    margin: auto;
+    margin-top: 400px;
 }
 
 /*-----------acceuil-----disparition------------------------------*/
 #disp {
-  position:relative;
-  height:400px;
-  width:700px;
-  margin:0 auto;
-}
- 
-#disp img {
-  position:absolute;
-  transition: opacity 1s ease-in-out;
-}
- 
-#disp img.image_qui_disparait:hover {
-  opacity:0;
-}
- 
-img.image_qui_disparait{
-  height: 400px;
-  width: 700px;
-  right:0%;
-  
+    position: relative;
+    height: 400px;
+    width: 700px;
+    margin: 0 auto;
 }
 
-#yz{
-  height:400px;
-  width:700px;
+#disp img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+#disp img.image_qui_disparait:hover {
+    opacity: 0;
+}
+
+img.image_qui_disparait {
+    height: 400px;
+    width: 700px;
+    right: 0%;
+}
+
+#yz {
+    height: 400px;
+    width: 700px;
 }
 
 /*-----------cours-----wall------------------------------*/
 .wall img {
-	height:200px;
-	width:400px;
-	border-radius: 30px;
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
 }
 
-
-
-.formulaire{
-  color:#c0c0c0;
+.formulaire {
+    color: #c0c0c0;
 }
 /*-----------------------quizz------------------------------*/
 
-.question{
-	color:#c0c0c0;
-	font-weight: 600;
+.question {
+    color: #c0c0c0;
+    font-weight: 600;
 }
 .answers {
-	color:#c0c0c0;
+    color: #c0c0c0;
     margin-bottom: 20px;
 }
-#submit{
-	font-family: sans-serif;
-	font-size: 20px;
-	background-color: #c0c0c0;
-	color: #fff;
-	border: 0px;
-	border-radius: 3px;
-	padding: 10px;
-	cursor: pointer;
-	margin-bottom: 20px;
+#submit {
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #c0c0c0;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
 }
-#submit:hover{
-	background-color: #6E6E6E;
+#submit:hover {
+    background-color: #6e6e6e;
 }
 
 /*------------------menu_accordeon----------------------------*/
 /*_ ACCORDEON_*/
 
-.contenedor { 
-/* primero definimos el contenedor */
+.contenedor {
+    /* primero definimos el contenedor */
     width: 100%;
-    max-width: 500px;
+    max-width: 1000px;
     margin: 10px auto 30px auto;
-   
 }
-
-
 
 /* Segundo  definimos las label de los inputs  tenemos un input le sigue un label se abre un article y coloco el contenido ahi 
 se repìte para cada tabs de la lista*/
 
 .contenedor label {
-	display: block;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 20px;
-	cursor: pointer;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    cursor: pointer;
     color: #777;
-    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
     font-size: 14px;
     background: #f8f8f8;
-    box-shadow: 
-        0px 0px 0px 1px rgba(155,155,155,0.3), 
-        1px 0px 0px 0px rgba(255,255,255,0.9) inset, 
-        0px 2px 2px rgba(0,0,0,0.1);
-        position: relative;
-        text-transform: uppercase;
-
+    box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 1px 0px 0px 0px rgba(255, 255, 255, 0.9) inset, 0px 2px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-transform: uppercase;
 }
 
 .contenedor label:hover {
-	background: #fff;
+    background: #fff;
 }
 
 /*para marcar la diferencia entre los abiertos y no abiertos se coloca checked y se le da estilo*/
 
 .contenedor input:checked + label,
-.contenedor input:checked + label:hover{
+.contenedor input:checked + label:hover {
     background: #f8f8f8;
     color: #3d7489;
-    text-shadow: 0px 1px 1px rgba(255,255,255, 0.6);
-    box-shadow: 
-        0px 0px 0px 1px rgba(155,155,155,0.3), 
-        0px 2px 2px rgba(0,0,0,0.1);
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3), 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-
-.contenedor input { /*elimina la vision del cuadrado donde se checkea el input */
-	display: none;
+.contenedor input {
+    /*elimina la vision del cuadrado donde se checkea el input */
+    display: none;
 }
-
 
 /*le doy estilo al articulo */
 
@@ -198,87 +175,122 @@ se repìte para cada tabs de la lista*/
     overflow: hidden;
     height: 0px;
     position: relative;
-    transition:  0.3s ease-in-out, 
-    box-shadow 0.6s linear;
-
+    transition: 0.3s ease-in-out, box-shadow 0.6s linear;
 }
-.contenedor input:checked ~ article{
-   transition:   0.5s ease-in-out, 
-    box-shadow 0.1s linear;
-    box-shadow: 0px 0px 0px 1px rgba(155,155,155,0.3);
+.contenedor input:checked ~ article {
+    transition: 0.5s ease-in-out, box-shadow 0.1s linear;
+    box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3);
 }
 
-.contenedor input:checked ~ article.ac-small{
+.contenedor input:checked ~ article.ac-small {
     height: 140px;
 }
-.contenedor input:checked ~ article.ac-medium{
+.contenedor input:checked ~ article.ac-medium {
     height: 180px;
 }
-.contenedor input:checked ~ article.ac-large{
+.contenedor input:checked ~ article.ac-large {
     height: 230px;
 }
 
-p { padding: 20px; 
-	font-family: 'Raleway', sans-serif; 
-	font-size: 12px; 
-	color:#666;}
+p {
+    padding: 20px;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    color: #666;
+}
 
 /*_  FIN ACCORDEON _*/
 
-
 /*__   MENU  */
 
-.accordeon > li > h3 > i { width: 55px; text-align: center;}
+.accordeon > li > h3 > i {
+    width: 55px;
+    text-align: center;
+}
 
-.accordeon { 
-    box-shadow: 
-    0 2px 15px 2px rgba(0, 0, 0, 0.3); 
+.accordeon {
+    box-shadow: 0 2px 15px 2px rgba(0, 0, 0, 0.3);
     /* 0 0 250px 1px rgba(255, 255, 255, 0.5); */
-    list-style: none; 
-    margin:0;
-    padding:0;
-    
-    }
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 .accordeon > li > h3 {
     font-weight: 200;
     display: block;
     font-size: 14px;
-	width: 100%; 	
-	line-height: 40px; 
-	transition:   0.5s ease-in-out,
-	box-shadow 0.1s linear;
-    background: #f8f8f8;        
-	border-bottom: 1px solid #e7e7e7;
+    width: 100%;
+    line-height: 40px;
+    transition: 0.5s ease-in-out, box-shadow 0.1s linear;
+    background: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
     position: relative;
     color: #586469;
-  font-weight: bold;
+    font-weight: bold;
     cursor: pointer;
-     text-transform: uppercase;
-    }
+    text-transform: uppercase;
+}
 
-.accordeon > li > h3:hover  {background: #e7e7e7; }
+.accordeon > li > h3:hover {
+    background: #e7e7e7;
+}
 
-.accordeon  ul li  {
-
+.accordeon ul li {
     display: block;
     padding-left: 0px;
-    width: 100%;     
-    line-height: 40px; 
-    transition:   0.5s ease-in-out,
-    box-shadow 0.1s linear;
-    background: #3C447B; 
+    width: 100%;
+    line-height: 40px;
+    transition: 0.5s ease-in-out, box-shadow 0.1s linear;
+    background: #3c447b;
     border-bottom: 1px solid #fff;
-    }
+}
 
-.accordeon  ul  li  a {
+.accordeon ul li a {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
-    display: block;  
-    } 
+    display: block;
+    font-size: 19px;
+}
 
-.accordeon  ul  li:hover    { background:#1F296E;}
-.accordeon  ul              { display: none;    }
-.contenedor li.active ul    {  display: block;  }
+.accordeon ul li:hover {
+    background: #1f296e;
+}
+.contenedor li.active ul {
+    display: block;
+}
 /*_FIN MENU __*/
+
+ul ul :nth-child(even) {
+    /* color: antiquewhite; */
+    background-color: #28365b;
+}
+
+.accordeon h3 {
+    margin: 0px;
+}
+
+.open {
+    display: block;
+}
+
+.accordeon > li {
+    margin-bottom: 10px;
+}
+
+.accordeon li ul {
+    padding-left: 0px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 2s ease 0s;
+}
+
+.accordeon .open ul {
+    max-height: 10000px;
+    transition: max-height 4s linear 0s;
+}
+
+.author {
+    margin: 1px 1px;
+}
