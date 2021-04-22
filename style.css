@@ -25,6 +25,10 @@ h5 {
     font-weight: 100;
 }
 .btn {
+    flex: 1;
+    min-width: 10%;
+    max-width: 20%;
+    margin: 0px auto;
     color: #999;
     background: rgba(0, 0, 0, 0.5);
     padding: 10px 20px;
@@ -38,9 +42,8 @@ h5 {
     border: none;
     background: rgba(0, 0, 0, 0.4);
     background: #fff;
-    padding: 20px 20px;
     color: #1b1b1b;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 
 .footer {
@@ -293,4 +296,16 @@ ul ul :nth-child(even) {
 
 .author {
     margin: 1px 1px;
+}
+
+.hide {
+    display: none;
+}
+
+.btnWidth {
+    max-width: 65%;
+}
+
+a {
+    margin-bottom: 10px;
 }

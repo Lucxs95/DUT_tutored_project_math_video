@@ -1,0 +1,40 @@
+{
+    "page": {
+        "1": {
+            "src": "./videos/equation_1.mp4",
+            "title": "Définitions et vocabulaires"
+        },
+        "2": {
+            "src": "./videos/equation_2.mp4",
+            "title": "Équations différentielles linéaires d’ordre 1 à coefficients constants : Définition et vocabulaire"
+        },
+        "3": {
+            "src": "./videos/equation_3.mp4",
+            "title": "Équations différentielles linéaires d’ordre 1 à coefficients constants : Cherche une solution particulière de l’équation complète (premier cas)"
+        },
+        "4": {
+            "src": "./videos/equation_4.mp4",
+            "title": "Équations différentielles linéaires d’ordre 1 à coefficients constants : Cherche une solution particulière de l’équation complète (premier cas)"
+        },
+        "5": {
+            "src": "./videos/equation_5.mp4",
+            "title": "Équations différentielles linéaires d’ordre 1 à coefficients constants : Cherche une solution particulière de l’équation complète (deuxième cas)"
+        },
+        "6": {
+            "src": "./videos/equation_6.mp4",
+            "title": "Équations différentielles linéaires d’ordre 2 à coefficients constants : Définition"
+        },
+        "7": {
+            "src": "./videos/equation_7.mp4",
+            "title": "Équations différentielles linéaires d’ordre 2 à coefficients constants : Résolution de l'équation homogène"
+        },
+        "8": {
+            "src": "./videos/equation_8.mp4",
+            "title": "Équations différentielles linéaires d’ordre 2 à coefficients constants : Cherche une solution particulière de l’équation complète (premier cas)"
+        },
+        "9": {
+            "src": "./videos/equation_9.mp4",
+            "title": "Équations différentielles linéaires d’ordre 2 à coefficients constants : Cherche une solution particulière de l’équation complète (deuxième cas)"
+        }
+    }
+}

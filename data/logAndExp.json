@@ -1,0 +1,132 @@
+{
+    "page": {
+        "1": {
+            "src": "./videos/logAndExp_1.mp4",
+            "title": "Définitions et propriétés de logarithme népérien",
+            "questions": [
+                {
+                    "question": "Valeurs de base a connaitre : ln(1)=",
+                    "answers": {
+                        "a": "1",
+                        "b": "0",
+                        "c": "-1"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "As-tu bien compris les formules ? Pour ln(4&sup2;) on aura :",
+                    "answers": {
+                        "a": "ln(4)",
+                        "b": "ln(4)&sup2;",
+                        "c": "2*ln(4)"
+                    },
+                    "correctAnswer": "c"
+                }
+            ]
+        },
+        "2": {
+            "src": "./videos/logAndExp_2.mp4",
+            "title": "Définition et propriétés d'exponentielle",
+            "questions": [
+                {
+                    "question": "Valeurs de base a connaitre : exp(0)=",
+                    "answers": {
+                        "a": "1",
+                        "b": "0",
+                        "c": "-1"
+                    },
+                    "correctAnswer": "a"
+                },
+                {
+                    "question": "D'après la réciproque on a e<sup>ln(1)</sup>:",
+                    "answers": {
+                        "a": "0",
+                        "b": "1",
+                        "c": "e<sup>1</sup>"
+                    },
+                    "correctAnswer": "b"
+                }
+            ]
+        },
+        "3": {
+            "src": "./videos/logAndExp_3.mp4",
+            "title": "Comparaison entre logarithme népérien et exponentielle",
+            "questions": [
+                {
+                    "question": "Dérivées de exponentielle(x) et logarithme(x) : ",
+                    "answers": {
+                        "a": "e<sup>x</sup> et 1",
+                        "b": "e<sup>1</sup> et 1/x",
+                        "c": "e<sup>x</sup> et 1/x"
+                    },
+                    "correctAnswer": "c"
+                },
+                {
+                    "question": "ln et exp sont ils croissant ou décroissant ?",
+                    "answers": {
+                        "a": "décroissant",
+                        "b": "croissant",
+                        "c": "l'un est décroissant et l'autre et croissant"
+                    },
+                    "correctAnswer": "b"
+                }
+            ]
+        },
+        "4": {
+            "src": "./videos/logAndExp_4.mp4",
+            "title": "Définitions et propriétés de logarithme de base a",
+            "questions": [
+                {
+                    "question": "Trouver la réponse pour ce logarithme : log26(15)=",
+                    "answers": {
+                        "a": "ln(26)/ln(15)",
+                        "b": "ln(15)/ln(26)",
+                        "c": "ln(x)/ln(a)"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "loga(x) est défini sur :",
+                    "answers": {
+                        "a": "R",
+                        "b": "]-&#8734;;0[",
+                        "c": "]0;+&#8734;["
+                    },
+                    "correctAnswer": "c"
+                }
+            ]
+        },
+        "5": {
+            "src": "./videos/logAndExp_5.mp4",
+            "title": "Définitions et propriétés d'exponentielle de base a",
+            "questions": [
+                {
+                    "question": "Quel est le résultat de 1854<sup>0</sup>",
+                    "answers": {
+                        "a": "0",
+                        "b": "1",
+                        "c": "1854"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "Quel est le résultat de log7(7<sup>10</sup>)",
+                    "answers": {
+                        "a": "10",
+                        "b": "7",
+                        "c": "1"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "6": {
+            "src": "./videos/logAndExp_6.mp4",
+            "title": "Exemples en utlisant les propriétés de logarithme népérien et exponentielle"
+        },
+        "7": {
+            "src": "./videos/logAndExp_7.mp4",
+            "title": "Exemples en utlisant les propriétés de logarithme et exponentielle de base a"
+        }
+    }
+}

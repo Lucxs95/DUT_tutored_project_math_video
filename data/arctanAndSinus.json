@@ -1,0 +1,40 @@
+{
+    "page": {
+        "1": {
+            "src": "./videos/arctanAndSinus_1.mp4",
+            "title": "Définition de la continuité"
+        },
+        "2": {
+            "src": "./videos/arctanAndSinus_2.mp4",
+            "title": "Définition d’une bijection"
+        },
+        "3": {
+            "src": "./videos/arctanAndSinus_3.mp4",
+            "title": "Théorème et définition de la fonction réciproque"
+        },
+        "4": {
+            "src": "./videos/arctanAndSinus_4.mp4",
+            "title": "Propriétés de la bijection réciproque g-1"
+        },
+        "5": {
+            "src": "./videos/arctanAndSinus_5.mp4",
+            "title": "Fonction arc tangente : Définition"
+        },
+        "6": {
+            "src": "./videos/arctanAndSinus_6.mp4",
+            "title": "Fonction arc tangente : Propriétés"
+        },
+        "7": {
+            "src": "./videos/arctanAndSinus_7.mp4",
+            "title": "Fonction arc tangente : Composée de tangente, cosinus et sinus"
+        },
+        "8": {
+            "src": "./videos/arctanAndSinus_8.mp4",
+            "title": "Fonction sinus cardinal : Définition"
+        },
+        "9": {
+            "src": "./videos/arctanAndSinus_9.mp4",
+            "title": "Fonction sinus cardinal : Propriétés"
+        }
+    }
+}

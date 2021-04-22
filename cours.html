@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Les Maths en vidéo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" media="screen and (max-width:1920px) and (min-width:480px)" href=" ../style.css" />
+        <link rel="stylesheet" media="screen and (max-width:480px)" href=" ../style.css" />
+        <link rel="icon" type="image/png" href="images/arbre.png" />
+        <link href="https://fonts.googleapis.com/css?family=Oswald:300" rel="stylesheet" type="text/css" />
+        <script src="./js/question.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Les MATHS en vidéo</h1>
+            <a href="./" class="btn">Home</a>
+            <a href="./ListeCours" class="btn">Cours</a>
+        </header>
+        <main>
+            <br />
+            <h2 id="title"></h2>
+            <video controls id="video" height="300" width="500"></video>
+        </main>
+        <div id="quizContainer">
+            <div id="quiz"></div>
+            <button id="submit">Vérifier</button>
+            <div id="results"></div>
+        </div>
+        <footer>
+            <br />
+            <div style="display: inline-flex">
+                <a id="previousPage"><p class="btn btnWidth">Page précédente</p></a>
+                <a id="nextPage"><p class="btn btnWidth">Page Suivante</p></a>
+            </div>
+        </footer>
+        <script src="./js/cours.js"></script>
+    </body>
+</html>

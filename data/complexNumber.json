@@ -1,0 +1,290 @@
+{
+    "page": {
+        "1": {
+            "src": "./videos/complexNumber_1.mp4",
+            "title": "Introduction aux nombres complexes",
+            "questions": [
+                {
+                    "question": "Dans quel ensemble sont définis les nombres complexes ?",
+                    "answers": {
+                        "a": "Z",
+                        "b": "R",
+                        "c": "c"
+                    },
+                    "correctAnswer": "c"
+                },
+                {
+                    "question": "j&sup2; = ?",
+                    "answers": {
+                        "a": "-1",
+                        "b": "j",
+                        "c": "1"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "2": {
+            "src": "./videos/complexNumber_2.mp4",
+            "title": "Formes algébriques des nombres complexes",
+            "questions": [
+                {
+                    "question": "z1 = 8 + 6j, donner les bonnes parties réelles et imaginaires  ?",
+                    "answers": {
+                        "a": "Re(z1)=6 , Im(Z1)=8",
+                        "b": "Re(z1)=8 , Im(Z1)=6",
+                        "c": "Aucune des deux réponses"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "z2 = 10, donner les bonnes parties réelles et imaginaires  ?",
+                    "answers": {
+                        "a": "Re(z2)=10 , Im(Z2)=0",
+                        "b": "Re(z2)=0 , Im(Z2)=10",
+                        "c": "Ce n'est pas un nombre complexe"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "3": {
+            "src": "./videos/complexNumber_3.mp4",
+            "title": "Forme trigonométrique des nombres complexes",
+            "questions": [
+                {
+                    "question": "Quel est la formule du module ?",
+                    "answers": {
+                        "a": "|z|=&#8730;(x&sup2;+y&sup2;)",
+                        "b": "|z|=x&sup2;+y&sup2;",
+                        "c": "|z|=&#8730;(x+y)"
+                    },
+                    "correctAnswer": "a"
+                },
+                {
+                    "question": "Quel est la formule de l'argument ?",
+                    "answers": {
+                        "a": "Pas besoin de la connaitre",
+                        "b": "Cos(&#952;)=x Sin(&#952;)=y",
+                        "c": "Cos(&#952;)=x/|z| Sin(&#952;)=y/|z|"
+                    },
+                    "correctAnswer": "c"
+                }
+            ]
+        },
+        "4": {
+            "src": "./videos/complexNumber_4.mp4",
+            "title": "Formes exponentielles des nombres complexes",
+            "questions": [
+                {
+                    "question": "Valeur importante : e<sup>-j&#928;/2</sup>, quel est le résultat ?",
+                    "answers": {
+                        "a": "1",
+                        "b": "-j",
+                        "c": "j"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "Valeur importante : e<sup>j0</sup>, quel est le résultat ?",
+                    "answers": {
+                        "a": "j",
+                        "b": "1",
+                        "c": "-1"
+                    },
+                    "correctAnswer": "b"
+                }
+            ]
+        },
+        "5": {
+            "src": "./videos/complexNumber_5.mp4",
+            "title": "Conjugué d'un nombre complexe",
+            "questions": [
+                {
+                    "question": "Le conjugué consiste à changer le signe de : ",
+                    "answers": {
+                        "a": "La partie réelle",
+                        "b": "La partie imaginaire",
+                        "c": "La partie réelle et la partie imaginaire"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "Quelle est le conjugué de z= 15+26j ?",
+                    "answers": {
+                        "a": "15-26j",
+                        "b": "-15-26j",
+                        "c": "15+26j"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "6": {
+            "src": "./videos/complexNumber_6.mp4",
+            "title": "Conjugué d'un nombre complexes (Propriétés - forme exponentielle)",
+            "questions": [
+                {
+                    "question": "Vidéo regroupant les propriétés du conjugué d'un nombre complexes",
+                    "answers": {
+                        "a": "J'ai compris ces propriétés"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "7": {
+            "src": "./videos/complexNumber_7.mp4",
+            "title": "Formules de Moivre et Formules d'Euler",
+            "questions": [
+                {
+                    "question": "Pour la formule de Moivre, (cos(&#952)+jsin(&#952))<sup>n</sup>, on a : ",
+                    "answers": {
+                        "a": "n * (cos(&#952)+jsin(&#952))",
+                        "b": "(n*cos(&#952)+n*jsin(&#952))",
+                        "c": "cos(n*&#952)+jsin(n*&#952)"
+                    },
+                    "correctAnswer": "c"
+                },
+                {
+                    "question": "Pour la formule d'Euler :",
+                    "answers": {
+                        "a": "J'ai compris",
+                        "b": "J'ai toujours rien compris"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "8": {
+            "src": "./videos/complexNumber_8.mp4",
+            "title": "Interprétation graphique des nombres complexes",
+            "questions": [
+                {
+                    "question": "Si on a -a-jb ou se trouve le point par rapport à l'axe ? ( placer vous 'a' 1:00 pour avoir l'axe)",
+                    "answers": {
+                        "a": "En haut à gauche",
+                        "b": "En bas à gauche",
+                        "c": "En bas à droite"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "Si on a 10-3j ou se trouve le point par rapport à l'axe ?",
+                    "answers": {
+                        "a": "10 unités à droite 3 unités en haut",
+                        "b": "10 unités a droite 3 unités en bas",
+                        "c": "10 unités a gauche 3 unités en haut",
+                        "d": "10 unités a gauche 3 unités en bas"
+                    },
+                    "correctAnswer": "b"
+                }
+            ]
+        },
+        "9": {
+            "src": "./videos/complexNumber_9.mp4",
+            "title": "Angle de deux vecteurs",
+            "questions": [
+                {
+                    "question": "Pour trois points, \"a\", \"b\", \"c\", distincts deux à deux quelle est la formule correct pour trouver l'angle ?",
+                    "answers": {
+                        "a": "|Zb-Zc/Za-Zc|",
+                        "b": "arg(Zb-Zc/Za-Zc)",
+                        "c": "La formule n'a pas été donné"
+                    },
+                    "correctAnswer": "b"
+                }
+            ]
+        },
+        "10": {
+            "src": "./videos/complexNumber_10.mp4",
+            "title": "Equations du second degré à coefficients réels (Si déterminant supérieur à 0)",
+            "questions": [
+                {
+                    "question": "A vous de jouer ! Calculez le determinant de -4z&sup2;+2z+10=0",
+                    "answers": {
+                        "a": "164",
+                        "b": "0",
+                        "c": "-164"
+                    },
+                    "correctAnswer": "a"
+                },
+                {
+                    "question": "Cette équation admet donc ... solutions dans R ? ",
+                    "answers": {
+                        "a": "0",
+                        "b": "1",
+                        "c": "2"
+                    },
+                    "correctAnswer": "c"
+                }
+            ]
+        },
+        "11": {
+            "src": "./videos/complexNumber_11.mp4",
+            "title": "Equations du second degré à coefficients réels (Si déterminant inférieur à 0)",
+            "questions": [
+                {
+                    "question": "Calculer le determinant de 4z&sup2;+2z+10=0",
+                    "answers": {
+                        "a": "156",
+                        "b": "0",
+                        "c": "-156"
+                    },
+                    "correctAnswer": "c"
+                },
+                {
+                    "question": "Cette équation admet donc ... solutions dans C ? ",
+                    "answers": {
+                        "a": "2",
+                        "b": "1",
+                        "c": "0"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        },
+        "12": {
+            "src": "./videos/complexNumber_12.mp4",
+            "title": "Equations du second degré à coefficients réels (Si déterminant égal à 0)",
+            "questions": [
+                {
+                    "question": "Calculer le determinant de 4z&sup2;+4z+1=0",
+                    "answers": {
+                        "a": "16",
+                        "b": "0",
+                        "c": "-16"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "Cette équation admet donc ... solutions dans C ? ",
+                    "answers": {
+                        "a": "2",
+                        "b": "1",
+                        "c": "0"
+                    },
+                    "correctAnswer": "b"
+                },
+                {
+                    "question": "La formule pour trouver la solution de l'équation est :",
+                    "answers": {
+                        "a": "-a/2b",
+                        "b": "b/2a",
+                        "c": "-b/2a"
+                    },
+                    "correctAnswer": "c"
+                },
+                {
+                    "question": "La solution de cette équation est donc : ",
+                    "answers": {
+                        "a": "-1/2",
+                        "b": "1",
+                        "c": "2"
+                    },
+                    "correctAnswer": "a"
+                }
+            ]
+        }
+    }
+}
