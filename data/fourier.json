@@ -1,0 +1,40 @@
+{
+    "page": {
+        "1": {
+            "src": "./videos/fourier_1.mp4",
+            "title": "Développement en série de Fourier : Définition 1 (développement en série de Fourier réel)"
+        },
+        "2": {
+            "src": "./videos/fourier_2.mp4",
+            "title": "Développement en série de Fourier : Définition 2 (harmoniques)"
+        },
+        "3": {
+            "src": "./videos/fourier_3.mp4",
+            "title": "Développement en série de Fourier : Définition 3 (développement en série de Fourier complexe)"
+        },
+        "4": {
+            "src": "./videos/fourier_4.mp4",
+            "title": "Développement en série de Fourier : Définition 4 (spectres)"
+        },
+        "5": {
+            "src": "./videos/fourier_5.mp4",
+            "title": "Développement en série de Fourier : Propriétés (selon la parité)"
+        },
+        "6": {
+            "src": "./videos/fourier_6.mp4",
+            "title": "Développement en série de Fourier : Propriétés (théorèmes fondamentaux)"
+        },
+        "7": {
+            "src": "./videos/fourier_7.mp4",
+            "title": "Transformée de Fourier : Définition"
+        },
+        "8": {
+            "src": "./videos/fourier_8.mp4",
+            "title": "Transformée de Fourier : Propriétés calculatoires"
+        },
+        "9": {
+            "src": "./videos/fourier_9.mp4",
+            "title": "Transformée de Fourier : Autres propriétés"
+        }
+    }
+}
